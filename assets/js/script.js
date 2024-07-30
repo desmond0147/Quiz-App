@@ -33,3 +33,16 @@ function loadQuestion() {
     
     document.getElementById('next').style.display = 'none';
 }
+
+//Check Answer Function
+function checkAnswer(selectedOption) {
+    const options = document.querySelectorAll('.option');
+    if (selectedOption === questions[currentQuestion].answer) {
+        options[selectedOption].style.backgroundColor = "#28a745";
+        score++;
+    } else {
+        options[selectedOption].style.backgroundColor = "#dc3545";
+        options[questions[currentQuestion].answer].style.backgroundColor = "#28a745";
+    }
+    document.getElementById('next').style.display = 'block';
+}
