@@ -16,4 +16,6 @@ const questions = [
         answer: 1
     }
 ];
-
+//  Initialize Variables
+let currentQuestion = 0;
+let score = 0;
