@@ -40,3 +40,14 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
+/* Question Container Styling */
+.question-container {
+    margin-bottom: 20px;
+}
+
+/*Options Container Styling*/
+.options-container {
+    display: flex;
+    flex-direction: column;
+}
+
