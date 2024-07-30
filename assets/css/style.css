@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-/* general body styling */
+/* General body styling */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
@@ -18,4 +18,9 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+}
+
+/* Heading styling */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
 }
