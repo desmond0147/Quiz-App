@@ -1,7 +1,7 @@
 /*Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 
-/* Resetting default styling */
+/* Resetting Default Styling */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-/* General body styling */
+/* General Body Styling */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
@@ -20,7 +20,17 @@ body {
     margin: 0;
 }
 
-/* Heading styling */
+/* Heading Styling */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
+}
+
+/* Quiz Container Styling */
+.quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
 }
