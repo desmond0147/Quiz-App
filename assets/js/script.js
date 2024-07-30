@@ -46,3 +46,13 @@ function checkAnswer(selectedOption) {
     }
     document.getElementById('next').style.display = 'block';
 }
+
+// Next Question Function
+function nextQuestion() {
+    currentQuestion++;
+    if (currentQuestion < questions.length) {
+        loadQuestion();
+    } else {
+        showResult();
+    }
+}
