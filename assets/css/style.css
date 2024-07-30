@@ -12,6 +12,7 @@
 /* General Body Styling */
 body {
     font-family: 'Roboto', sans-serif;
+    background: url('../images/Quiz-Background.png') no-repeat center center fixed;
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
