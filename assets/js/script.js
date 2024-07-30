@@ -19,3 +19,17 @@ const questions = [
 //  Initialize Variables
 let currentQuestion = 0;
 let score = 0;
+
+// : Load Question Function
+function loadQuestion() {
+    const questionElement = document.getElementById('question');
+    const options = document.querySelectorAll('.option');
+    
+    questionElement.textContent = questions[currentQuestion].question;
+    options.forEach((option, index) => {
+        option.textContent = questions[currentQuestion].options[index];
+        option.style.backgroundColor = "#007bff";
+    });
+    
+    document.getElementById('next').style.display = 'none';
+}
