@@ -7,25 +7,39 @@
     <title>Quiz App</title>
 </head>
 <body>
-    <div class="quiz-container">
-        <h1>Quiz App</h1> <!-- Added heading -->
-        <div id="quiz">
+    <main class="quiz-container">
+        <h1>Quiz App</h1>
+        
+        <section id="welcome">
+            <p>Welcome to the Quiz App!</p>
+            <p>Let's get our brain busy with this amazing game.</p>
+            <button onclick="startQuiz()">Start Quiz</button>
+        </section>
+        
+        <section id="quiz" class="hidden">
             <div class="question-container">
                 <p id="question"></p>
             </div>
             <div class="options-container">
-                <button class="option" id="option1" onclick="checkAnswer(0)"></button>
-                <button class="option" id="option2" onclick="checkAnswer(1)"></button>
-                <button class="option" id="option3" onclick="checkAnswer(2)"></button>
-                <button class="option" id="option4" onclick="checkAnswer(3)"></button>
+                <button class="option" id="option1" data-index="0"></button>
+                <button class="option" id="option2" data-index="1"></button>
+                <button class="option" id="option3" data-index="2"></button>
+                <button class="option" id="option4" data-index="3"></button>
             </div>
-            <button id="next" onclick="nextQuestion()">Next</button>
-        </div>
-        <div id="result" class="hidden">
+            <button id="next" class="hidden">Next</button>
+        </section>
+        
+        <section id="result" class="hidden">
             <p>Your Score: <span id="score"></span></p>
-            <button onclick="restartQuiz()">Restart Quiz</button>
-        </div>
-    </div>
+            <button id="restart">Restart Quiz</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Quiz App. All rights reserved.</p>
+    </footer>
+    
     <script src="assets/js/script.js"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
 </body>
 </html>
