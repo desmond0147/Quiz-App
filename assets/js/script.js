@@ -14,6 +14,16 @@ const questions = [
         question: "Which planet is known as the Red Planet?",
         options: ["Earth", "Mars", "Jupiter", "Saturn"],
         answer: 1
+    },
+    {
+        question: "What is the largest ocean on Earth?",
+        options: ["Atlantic", "Indian", "Arctic", "Pacific"],
+        answer: 3
+    },
+    {
+        question: "Who wrote 'To Kill a Mockingbird'?",
+        options: ["Harper Lee", "J.K. Rowling", "Ernest Hemingway", "Mark Twain"],
+        answer: 0
     }
 ];
 //  Initialize Variables
@@ -21,6 +31,7 @@ let currentQuestion = 0;
 let score = 0;
 
 // : Load Question Function
+
 function loadQuestion() {
     const questionElement = document.getElementById('question');
     const options = document.querySelectorAll('.option');
@@ -35,6 +46,7 @@ function loadQuestion() {
 }
 
 //Check Answer Function
+
 function checkAnswer(selectedOption) {
     const options = document.querySelectorAll('.option');
     if (selectedOption === questions[currentQuestion].answer) {
@@ -48,6 +60,7 @@ function checkAnswer(selectedOption) {
 }
 
 // Next Question Function
+
 function nextQuestion() {
     currentQuestion++;
     if (currentQuestion < questions.length) {
@@ -73,5 +86,5 @@ function restartQuiz() {
     loadQuestion();
 }
 
-// Initialize the Quiz
+// Initialize the quiz
 document.addEventListener('DOMContentLoaded', loadQuestion);
