@@ -56,3 +56,11 @@ function nextQuestion() {
         showResult();
     }
 }
+
+//  Show Result Function
+function showResult() {
+    document.getElementById('quiz').classList.add('hidden');
+    document.getElementById('result').classList.remove('hidden');
+    document.getElementById('score').textContent = score;
+}
+
