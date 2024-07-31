@@ -64,3 +64,11 @@ function showResult() {
     document.getElementById('score').textContent = score;
 }
 
+//Restart Quiz Function
+function restartQuiz() {
+    currentQuestion = 0;
+    score = 0;
+    document.getElementById('result').classList.add('hidden');
+    document.getElementById('quiz').classList.remove('hidden');
+    loadQuestion();
+}
