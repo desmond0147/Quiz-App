@@ -72,3 +72,6 @@ function restartQuiz() {
     document.getElementById('quiz').classList.remove('hidden');
     loadQuestion();
 }
+
+// Initialize the Quiz
+document.addEventListener('DOMContentLoaded', loadQuestion);
