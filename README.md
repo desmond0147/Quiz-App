@@ -1,4 +1,7 @@
-Site Overview
+## Quiz-App
+
+# Site Overview
+
 The Quiz-App is an engaging and educational tool designed to offer users a fun and interactive way to test and expand their knowledge across various subjects. Whether you're looking to challenge yourself, learn something new, or simply pass the time, Quiz-App provides a user-friendly platform to do so.
 
 Inspiration
