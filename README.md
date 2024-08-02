@@ -8,23 +8,23 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <div style="flex: 1 1 200px;">
-    <img src="assets/images/laptop-front.png" alt="Laptop Front" style="width: 100%;"/>
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/laptop-front.png" alt="Laptop Front" style="width: 100px;"/>
     <p>Laptop Front Screen</p>
   </div>
 
-  <div style="flex: 1 1 200px;">
-    <img src="assets/images/Desktop-front.png" alt="Desktop Front" style="width: 100%;"/>
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/Desktop-front.png" alt="Desktop Front" style="width: 100px;"/>
     <p>Desktop Front Screen</p>
   </div>
 
-  <div style="flex: 1 1 200px;">
-    <img src="assets/images/airpad-portrait.png" alt="Airpad Portrait" style="width: 100%;"/>
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/airpad-portrait.png" alt="Airpad Portrait" style="width: 100px;"/>
     <p>Airpad Portrait Screen</p>
   </div>
 
-  <div style="flex: 1 1 200px;">
-    <img src="assets/images/sumsung-right.png" alt="Samsung Right" style="width: 100%;"/>
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/sumsung-right.png" alt="Samsung Right" style="width: 100px;"/>
     <p>Samsung Right Screen</p>
   </div>
 
