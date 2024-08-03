@@ -68,7 +68,6 @@ let allQuestions = [
         options: ["K2", "Kangchenjunga", "Mount Everest", "Lhotse"],
         answer: 2
     }
-    // Add more questions if needed
 ];
 
 let questions;
@@ -135,7 +134,13 @@ function nextQuestion() {
 function showResult() {
     document.getElementById('quiz').classList.add('hidden');
     document.getElementById('result').classList.remove('hidden');
-    document.getElementById('score-message').textContent = `You scored ${score} out of ${questions.length}. Try again by clicking the restart button.`;
+    let scoreMessage = `You scored ${score} out of ${questions.length}.`;
+    if (score === questions.length) {
+        scoreMessage += " 🎉 Congratulations! 🎉";
+    } else {
+        scoreMessage += " Try again by clicking the restart button.";
+    }
+    document.getElementById('score-message').textContent = scoreMessage;
 }
 
 /**
