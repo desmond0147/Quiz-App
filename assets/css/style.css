@@ -35,10 +35,8 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     width: 350px;
     text-align: center;
-    min-height: 400px; /* Set a minimum height */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 500px; /* Fixed height */
+    overflow-y: auto; /* Allow scrolling if content exceeds height */
 }
 
 /* Hidden Class */
@@ -131,17 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #1257a1; /* Darker shade for hover state */
     transform: translateY(-2px);
 }
-/* Quiz Container Styling */
-.quiz-container {
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    width: 350px;
-    text-align: center;
-    height: 500px; /* Fixed height */
-    overflow-y: auto; /* Allow scrolling if content exceeds height */
-}
+
 /* Responsive adjustments for quiz container and elements */
 @media (max-width: 400px) {
     .quiz-container {
