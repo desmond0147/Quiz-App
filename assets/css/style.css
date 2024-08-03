@@ -110,10 +110,10 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-2px);
 }
 
-/* Start Quiz Button Styling */
-.start-quiz-btn {
-    background-color: #007bff; /* Bootstrap Primary Color */
-    color: white;
+/* More specific selector for Start Quiz Button */
+.quiz-container #welcome .start-quiz-btn {
+    background-color: #1257a1; /* Darker blue for better contrast */
+    color: #ffffff; /* White text for high contrast */
     font-size: 1.25rem;
     padding: 15px 30px;
     margin-top: 20px;
@@ -123,44 +123,24 @@ h1, h2, h3, h4, h5, h6 {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.start-quiz-btn:hover {
-    background-color: #0056b3; /* Darker shade of primary color */
+.quiz-container #welcome .start-quiz-btn:hover {
+    background-color: #1257a1; /* Darker shade for hover state */
     transform: translateY(-2px);
 }
 
 /* Responsive adjustments for quiz container and elements */
-@media screen and (max-width: 768px) {
-    body {
-        background-size: cover;
-        height: auto;
-        padding: 20px;
-    }
-
+@media (max-width: 400px) {
     .quiz-container {
         width: 100%;
         padding: 20px;
     }
-
-    #question {
-        font-size: 1rem;
-    }
-
-    .option {
-        font-size: 1rem;
-        padding: 10px;
-    }
-
-    #next, #result button, .start-quiz-btn {
-        font-size: 1rem;
-        padding: 10px;
-    }
 }
 
-/* Social Media Icons Styling */
+/* Social Media Links Styling */
 #social-medias {
-    list-style: none;
     display: flex;
     justify-content: center;
+    list-style: none;
     margin-top: 20px;
 }
 
@@ -169,7 +149,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social-medias a {
-    text-decoration: none;
     color: #0056b3;
     font-size: 1.5rem;
     transition: color 0.3s ease;
