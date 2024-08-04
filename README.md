@@ -30,5 +30,32 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
     <img src="assets/images/sumsung-right.png" alt="Samsung Right" style="width: 150px;"/>
     <p>Samsung Right Screen</p>
   </div>
-
 </div>
+
+## Features
+
+### Header
+- **Quiz App**: Displays the title of the application prominently.
+
+### Welcome Section
+- **Introduction Message**:
+  - Welcomes users to the Quiz App.
+  - Provides an engaging introduction, highlighting the excitement and challenge of the quiz.
+  - Informs users that each quiz attempt will present new and unique questions.
+
+### Start Quiz
+- **Interactive Start Button**:
+  - Users can begin their quiz adventure by clicking the "Start Quiz" button.
+
+### Game Options
+- **Quiz Section**:
+  - **Question Display**: Presents the current quiz question.
+  - **Options Display**:
+    - Users can select their answer from the provided options.
+    - Example Question: "What is the capital of France?"
+      - Option 1: Berlin
+      - Option 2: Madrid
+      - Option 3: Paris
+      - Option 4: Lisbon
+  - **Next Button**: Allows users to proceed to the next question after selecting an answer.
+  <img src="assets/images/Quiz-GameOptions.png" alt="Quiz Game" style="width: 150px;"/>
