@@ -67,3 +67,45 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
 - **Restart Quiz**:
   - **Interactive Restart Button**: Allows users to restart the quiz for another attempt.
   <img src="assets/images/Quiz-Result.png" alt="Quiz Result" style="width: 150px;"/>
+
+ ### Future Enhancements
+**Timed Questions**:
+
+**Feature**: Implement a timer for each question to add an element of urgency and challenge.
+**Benefit**: Increases the difficulty and excitement of the quiz.
+**Question Categories**:
+
+**Feature**: Allow users to select categories (e.g., History, Science, Sports).
+Benefit: Provides a personalized quiz experience based on user preferences.
+
+## Leaderboard:
+**Feature**: Display a leaderboard with the highest scores.
+**Benefit**: Encourages competition among users and enhances replayability.
+
+## Multiplayer Mode:
+**Feature**: Introduce a multiplayer mode where users can compete against friends in real-time.
+**Benefit**: Adds a social dimension to the quiz, making it more engaging.
+
+## Feedback and Explanations:
+**Feature**: Provide feedback and explanations for each question after it is answered.
+**Benefit**: Enhances the educational value of the quiz by explaining correct and incorrect answers.
+
+## Question Difficulty Levels:
+**Feature**: Allow users to choose between different difficulty levels (e.g., Easy, Medium, Hard).
+**Benefit**: Makes the quiz accessible to users with different knowledge levels.
+
+## Progress Tracking:
+Feature: Track user progress over time, showing improvements and statistics.
+**Benefit**: Motivates users by showing their growth and areas for improvement.
+
+## Custom Quizzes:
+**Feature**: Let users create and share their own quizzes.
+**Benefit**: Expands the content available and allows for community engagement.
+Audio Questions:
+
+**Feature**: Include audio-based questions where users have to listen to a clip and answer.
+**Benefit**: Diversifies question types and engages different senses.
+
+## Adaptive Learning:
+**Feature**: Implement adaptive learning algorithms to tailor the difficulty and types of questions based on user performance.
+**Benefit**: Provides a customized learning experience that adapts to the user's strengths and weaknesses.
