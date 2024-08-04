@@ -109,3 +109,29 @@ Audio Questions:
 ## Adaptive Learning:
 **Feature**: Implement adaptive learning algorithms to tailor the difficulty and types of questions based on user performance.
 **Benefit**: Provides a customized learning experience that adapts to the user's strengths and weaknesses.
+
+## Testing
+
+### Browser Compatibility
+
+I tested the Quiz-App across several browsers to ensure consistent performance and appearance:
+
+- **Google Chrome**
+- **Mozilla Firefox**
+- **Safari**
+
+### Results Accuracy
+
+- I confirm that the game results are always correct across different browsers.
+
+### Readability
+
+- **Header, Instructions, Options, and Result**:
+  - I confirm that these elements are all readable and easy to understand.
+
+### Accessibility
+
+- **Colors and Fonts**:
+  - I confirm that the colors and fonts chosen are easy to read.
+  - Accessibility was verified using Lighthouse in Chrome DevTools, ensuring that the application meets accessibility standards.
+  <img src="assets/images/quiz lighthouse.png" alt="quiz lighthouse" style="width: 150px;"/>
