@@ -73,8 +73,8 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
 
 **Feature**: Implement a timer for each question to add an element of urgency and challenge.
 **Benefit**: Increases the difficulty and excitement of the quiz.
-**Question Categories**:
 
+## Question Categories:
 **Feature**: Allow users to select categories (e.g., History, Science, Sports).
 Benefit: Provides a personalized quiz experience based on user preferences.
 
