@@ -59,3 +59,11 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
       - Option 4: Lisbon
   - **Next Button**: Allows users to proceed to the next question after selecting an answer.
   <img src="assets/images/Quiz-GameOptions.png" alt="Quiz Game" style="width: 150px;"/>
+
+  ### Quiz Result
+- **Score Display**:
+  - **Message**: Shows the user's score with a celebratory message if the score is perfect.
+  - Example: "You scored 5 out of 5. 🎉 Congratulations! 🎉"
+- **Restart Quiz**:
+  - **Interactive Restart Button**: Allows users to restart the quiz for another attempt.
+  <img src="assets/images/Quiz-Result.png" alt="Quiz Result" style="width: 150px;"/>
