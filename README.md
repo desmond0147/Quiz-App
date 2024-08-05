@@ -13,7 +13,7 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
 | Description | Screenshot |
 | --- | --- |
 | Laptop Front Screen | ![screenshot](assets/images/laptop-front.png) |
-| Desktop Front Screen | ![screenshot](assets/images/Desktop-front.png) |
+| Desktop Front Screen | ![screenshot](assets/images/desktop-front.png) |
 | Airpad Portrait Screen | ![screenshot](assets/images/airpad-portrait.png) |
 | Samsung Right Screen | ![screenshot](assets/images/sumsung-right.png) |
 
@@ -43,7 +43,7 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
       - Option 3: Paris
       - Option 4: Lisbon
   - **Next Button**: Allows users to proceed to the next question after selecting an answer.
-  <img src="assets/images/Quiz-GameOptions.png" alt="Quiz Game" style="width: 150px;"/>
+  <img src="assets/images/quiz-gameoptions.png" alt="Quiz Game" style="width: 150px;"/>
 
 #### Quiz Result
 - **Score Display**:
@@ -51,7 +51,7 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
   - Example: "You scored 5 out of 5. 🎉 Congratulations! 🎉"
 - **Restart Quiz**:
   - **Interactive Restart Button**: Allows users to restart the quiz for another attempt.
-  <img src="assets/images/Quiz-Result.png" alt="Quiz Result" style="width: 150px;"/>
+  <img src="assets/images/quiz-result.png" alt="Quiz Result" style="width: 150px;"/>
 
 ### Future Enhancements
 
