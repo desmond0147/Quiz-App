@@ -133,8 +133,15 @@ I tested the Quiz-App across several browsers to ensure consistent performance a
   The low contrast issue was fixed through DevTools.
 
 ## Validation Testing
-HTML: No errors were returned when passing through the official W3C validator, wave evaluation tools.
-CSS: No errors were found when passing through the official Jigsaw validator.
+HTML: No errors were returned when passing through the official W3C validator:https://validator.w3.org/nu/#textarea , wave evaluation tools: https://wave.webaim.org/
+CSS:https://jigsaw.w3.org/css-validator/validator No errors were found when passing through the official Jigsaw validator, just a warning because of the /* Import Google Fonts */
+| Description | Screenshot |
+| --- | --- |
+| CSS Test Screen | ![screenshot](assets/images/css-test.png) |
+| Html Test Screen | ![screenshot](assets/images/html-test.png) |
+| Wave Test Screen | ![screenshot](assets/images/wave-test.png) |
+
+
 Unfixed Bugs
 No unfixed bugs.
 Accessibility
