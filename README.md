@@ -203,7 +203,8 @@ git push
 ## Credits
 
 - **Inspiration**: Love Maths walkthrough project, chatgbt to generate questions and answers, google, YouTube: https://www.youtube.com/@GreatStackDev, "mentor call sections".
-- **Media**: Images were taken from Pexels. https://redketchup.io/image-resizer was use to resize image. this was taking directly from Love Maths project document.addEventListener("DOMContentLoaded", function() {
+- **Media**: Images were taken from Pexels. favicon: https://www.favicon.cc/?action=icon&file_id=823471 https://redketchup.io/image-resizer was use to resize image.
+ this code was taking directly from Love Maths project document.addEventListener("DOMContentLoaded", function() {
     const optionButtons = document.querySelectorAll(".option");
     for (let button of optionButtons) {
         button.addEventListener("click", function() {

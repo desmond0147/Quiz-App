@@ -1,3 +1,5 @@
+// wait for the DOM to finish loading before running the game 
+// Get the button elements and ass event listerners to them 
 document.addEventListener("DOMContentLoaded", function() {
     const optionButtons = document.querySelectorAll(".option");
     for (let button of optionButtons) {
