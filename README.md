@@ -12,10 +12,10 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
 
 | Description | Screenshot |
 | --- | --- |
-| Laptop Front Screen | [screenshot]("assets/images/laptop-front.png") |
-| Desktop Front Screen | [screenshot]("assets/images/Desktop-front.png") |
-| Airpad Portrait Screen | [screenshot]("assets/images/airpad-portrait.png") |
-| Samsung Right Screen | [screenshot]("assets/images/sumsung-right.png") |
+| Laptop Front Screen | ![screenshot](assets/images/laptop-front.png) |
+| Desktop Front Screen | ![screenshot](assets/images/Desktop-front.png) |
+| Airpad Portrait Screen | ![screenshot](assets/images/airpad-portrait.png) |
+| Samsung Right Screen | ![screenshot](assets/images/sumsung-right.png) |
 
 ### Features
 
