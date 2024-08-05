@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 /**
  * List of all possible questions and their corresponding options and answers
  */
