@@ -10,28 +10,12 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
 
 ### Screenshots
 
-<div style="display: flex; flex-wrap: nowrap; gap: 10px; justify-content: center;">
-
-  <div style="flex: 1 1 auto; text-align: center;">
-    <img src="assets/images/laptop-front.png" alt="Laptop Front" style="width: 150px;"/>
-    <p>Laptop Front Screen</p>
-  </div>
-
-  <div style="flex: 1 1 auto; text-align: center;">
-    <img src="assets/images/Desktop-front.png" alt="Desktop Front" style="width: 150px;"/>
-    <p>Desktop Front Screen</p>
-  </div>
-
-  <div style="flex: 1 1 auto; text-align: center;">
-    <img src="assets/images/airpad-portrait.png" alt="Airpad Portrait" style="width: 150px;"/>
-    <p>Airpad Portrait Screen</p>
-  </div>
-
-  <div style="flex: 1 1 auto; text-align: center;">
-    <img src="assets/images/sumsung-right.png" alt="Samsung Right" style="width: 150px;"/>
-    <p>Samsung Right Screen</p>
-  </div>
-</div>
+| Description | Screenshot |
+| --- | --- |
+| Laptop Front Screen | [screenshot](assets/images/laptop-front.png) |
+| Desktop Front Screen | [screenshot](assets/images/Desktop-front.png) |
+| Airpad Portrait Screen | [screenshot](assets/images/airpad-portrait.png) |
+| Samsung Right Screen | [screenshot](assets/images/sumsung-right.png) |
 
 ### Features
 
