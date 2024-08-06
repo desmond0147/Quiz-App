@@ -1,4 +1,16 @@
+
 ## Quiz-App Game
+## Table of Contents
+- [Site Overview](#site-overview)
+- [Screenshots](#screenshots)
+- [Features](#features)
+- [Future Enhancements](#future-enhancements)
+- [Testing](#testing)
+- [Technologies Used](#technologies-used)
+- [Bugs](#bugs)
+- [Getting Started](#getting-started)
+- [Deployment Process](#deployment-process)
+- [Credits](#credits)
 
 ### Site Overview
 
@@ -12,10 +24,10 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
 
 | Description | Screenshot |
 | --- | --- |
-| Laptop Front Screen | ![screenshot](assets/images/laptop-front.png) |
-| Desktop Front Screen | ![screenshot](assets/images/desktop-front.png) |
-| Airpad Portrait Screen | ![screenshot](assets/images/airpad-portrait.png) |
-| Samsung Right Screen | ![screenshot](assets/images/sumsung-right.png) |
+| Laptop Front Screen | ![screenshot](assets/images/laptop-size-front.png) |
+| Desktop Front Screen | ![screenshot](assets/images/desktop-size-front.png) |
+| Airpad Portrait Screen | ![screenshot](assets/images/airpad-size-portrait.png) |
+| Samsung Right Screen | ![screenshot](assets/images/phone-size-portrait.png) |
 
 ### Features
 
@@ -42,16 +54,6 @@ The idea for Quiz-App was born out of a passion for learning and the joy of disc
       - Option 2: Madrid
       - Option 3: Paris
       - Option 4: Lisbon
-  - **Next Button**: Allows users to proceed to the next question after selecting an answer.
-  <img src="assets/images/quiz-gameoptions.png" alt="Quiz Game" style="width: 150px;"/>
-
-#### Quiz Result
-- **Score Display**:
-  - **Message**: Shows the user's score with a celebratory message if the score is perfect.
-  - Example: "You scored 5 out of 5. 🎉 Congratulations! 🎉"
-- **Restart Quiz**:
-  - **Interactive Restart Button**: Allows users to restart the quiz for another attempt.
-  <img src="assets/images/quiz-result.png" alt="Quiz Result" style="width: 150px;"/>
 
 ### Future Enhancements
 
@@ -114,7 +116,8 @@ I tested the Quiz-App across several browsers to ensure consistent performance a
 - **Colors and Fonts**:
   - I confirm that the colors and fonts chosen are easy to read.
   - Accessibility was verified using Lighthouse in Chrome DevTools, ensuring that the application meets accessibility standards.
-  <img src="assets/images/quiz lighthouse.png" alt="quiz lighthouse" style="width: 150px;"/>
+  <img src="assets/images/lighthouse-test.png" alt="quiz lighthouse" style="width: 150px;"/>
+
 
 ### Technologies Used
 - HTML
@@ -178,8 +181,8 @@ From the source drop-down menu, select the Master Branch.
 Once the master branch has been selected, the page provides the link to the completed website: QUIZ-APP GitHub Pages https://desmond0147.github.io/Quiz-App/.
 
 ## Credits
-- Inspiration: Love Maths walkthrough project, ChatGPT for generating questions and answers, Google, YouTube: GreatStackDev, "mentor call sections".
-- Media: Images were taken from Pexels. Favicon: Favicon. Redketchup.io was used to resize images. This code was taken directly from Love Maths project:
+- Inspiration: Love Maths walkthrough project, ChatGPT for generating questions and answers, Google, YouTube:https://www.youtube.com/watch?v=PBcqGxrr9g8&t=315s , "mentor call sections".
+- Media: Images were taken from Pexels: https://www.pexels.com/photo/text-on-shelf-256417/ Favicon: https://www.favicon.cc/. Redketchup.io was used to resize images. Code: Some code taken from the Love Maths project:
 javascript
 document.addEventListener("DOMContentLoaded", function() {
   const optionButtons = document.querySelectorAll(".option");
@@ -189,4 +192,3 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   }
 });
-The code to fix the Arial issues was taken from W3Schools.
